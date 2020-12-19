@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/mainstyles.css">
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
-        <title>Attendance - <?php echo $title; ?></title>
+        <title>UDS WIFI - <?php echo $title; ?></title>
     </head>
     <body>
     <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark navigation-clean-button">
@@ -51,19 +51,19 @@
 
                 <li class="nav-item <?php if($page == 'register'){ echo 'active'; }?>">
                     <a class="nav-link" href="register.php">REGISTER</a>
-                </li>
-
-                <li class="nav-item <?php if($page == 'contactus'){ echo 'active'; }?>">
-                    <a class="nav-link" href="contactus.php">CONTACT US</a>
-                </li>
-
-                <li class="nav-item <?php if($page == 'ourpolicy'){ echo 'active'; }?>">
-                    <a class="nav-link" href="ourpolicy.php">OUR POLICY</a>
-                </li>
+                </li>  
 
                 <li class="nav-item <?php if($page == 'viewrecords'){ echo 'active'; }?>" <?php if(!isset($_SESSION['userid'])){ echo 'hidden';} ?>>
                     <a class="nav-link" href="viewrecords.php">VIEW CUSTOMERS</a>
-                </li>    
+                </li>  
+
+                <li class="nav-item <?php if($page == 'ourpolicy'){ echo 'active'; }?>">
+                    <a class="nav-link" href="ourpolicy.php">OUR POLICY</a>
+                </li> 
+
+                <li class="nav-item <?php if($page == 'contactus'){ echo 'active'; }?>">
+                    <a class="nav-link" href="contactus.php">CONTACT US</a>
+                </li> 
                                     
             </ul>
             <ul class="navbar-nav ml-auto">  
@@ -71,7 +71,7 @@
                     if(!isset($_SESSION['userid'])){
                 ?>                      
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">Login</a>
+                        <a class="nav-link" href="login.php">LOGIN</a>
                     </li>  
                 <?php }else {?>  
                     <li>
@@ -79,7 +79,7 @@
                     </li>
                     <li>
                         
-                        <a class="nav-link" href="logout.php">Logout</a>
+                        <a class="nav-link" href="logout.php">LOGOUT</a>
                     </li>
                 <?php }?>                    
             </ul>

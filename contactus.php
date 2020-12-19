@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Home';
+    $title = 'CONTACT US';
     $page = "contactus";
     require_once 'includes/header.php';
     require_once 'db/conn.php';
@@ -49,7 +49,7 @@
         <div class="container">
             <h1 style="color: rgb(255,255,255);text-align: center;">Contact Us</h1>
             <p style="color: rgb(255,255,255);text-align: center;">Fill out the form below and we'll get back to you shortly.</p>
-            <form action="includes/contactusmail.php" method="post">
+            <form action="contactusmail.php" method="post">
                 <div class="form-row">
                     <div class="col-12 col-md-6">
                         <div class="form-group"><input required class="form-control" type="text" placeholder="First Name" name="firstname" id="firstname"></div>

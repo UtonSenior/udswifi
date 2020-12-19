@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Home';
+    $title = 'REGISTER';
     $page = "register";
     require_once 'includes/header.php';
     require_once 'db/conn.php';
@@ -34,7 +34,7 @@
                 <p style="color: rgb(255,255,255);">We will not, in any circumstances, share your personal information with <br>other individuals or organizations without your permission, including <br>public organizations, corporations or individuals, except when <br>applicable by law.
                     We will not sell, communicate or divulge your <br>information to any mailing lists.<br></p>
             </div>
-            <div class="col" style="margin-bottom: 15px;border-top: 2px none rgb(108,147,146) ;border-right: 2px solid rgb(108,147,146) ;border-bottom: 2px none rgb(108,147,146) ;">
+            <div class="col" style="border-top: 2px none rgb(108,147,146) ;border-right: 2px solid rgb(108,147,146) ;border-bottom: 2px none rgb(108,147,146) ;">
                 <form id="regForm" name="regForm" method="post" action="success.php" enctype="multipart/form-data">
                     <div class="form-group">
                         <h1 class="text-center"><strong>Registration</strong></h1>

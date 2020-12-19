@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Home';
+    $title = 'HOME';
     $page = "index";
     require_once 'includes/header.php';
     require_once 'db/conn.php';
@@ -24,7 +24,7 @@
             </div>
             <div class="row" id="row-register">
                 <div class="col text-center">
-                    <h4><a class="btn btn-primary btn-lg" role="button" style="margin: 32px;" href="resgister.html">Register Now!</a></h4>
+                    <h4><a class="btn btn-primary btn-lg" role="button" style="margin: 32px;" href="register.php">Register Now!</a></h4>
                 </div>
             </div>
         </div>
@@ -34,19 +34,19 @@
             <div class="col-12 col-md-8">
                 <div class="row">
                     <div class="col">
-                        <h2><strong>UDS FREE WIFI</strong></h2>
+                        <h3><strong>UDS FREE WIFI</strong></h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <p class="text-left" style="font-size: 18px;">How fast is your download or upload speed? Are you tired of paying for so call reliable internet and you're not getting the speed your ISP advertise? Have you ever wonder if there was a way to access the internet for free and also
-                            get the speed you truly deserve? USD WIFI offers free WIFI service island-wide with no hidden fees. Yes, you heard right now you can enjoy free WIFI service anywhere in Jamaica all you need to do is to&nbsp;<a href="#">register</a>&nbsp;and
+                            get the speed you truly deserve? USD WIFI offers free WIFI service island-wide with no hidden fees. Yes, you heard right now you can enjoy free WIFI service anywhere in Jamaica all you need to do is to&nbsp;<a href="register.php">register</a>&nbsp;and
                             you will get access to UDS FREE WIFI Service.<br></p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h2>Is this the right choice for you?</h2>
+                        <h3>Is this the right choice for you?</h3>
                     </div>
                 </div>
                 <div class="row">

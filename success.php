@@ -19,10 +19,15 @@
         move_uploaded_file($orig_file, $destination);
 
         //Check if email already exist in db        
-            
+        $exist = 0;    
         $check_email = $crud->checkCustomerEmail($email);
         if($check_email['num'] > 0){        
-            echo "Sorry! The email you entered is already taken. <a href='javascript:history.go(-1)'>Please try another</a>.";                  
+            echo "<div class='container'>
+                    <div class='alert alert-danger' role='alert' style='text-align:center'>
+                        <h5>Sorry! The email you entered is already taken. <a href='javascript:history.go(-1)'>Please try another</a>.</h5>
+                    </div>
+                </div>";   
+                $exist = 1;               
         }
         else{
                 // call function to insert and track if success or not

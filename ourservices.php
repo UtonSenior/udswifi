@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Home';
+    $title = 'OUR SERVICES';
     $page = "ourservices";
     require_once 'includes/header.php';
     require_once 'db/conn.php';

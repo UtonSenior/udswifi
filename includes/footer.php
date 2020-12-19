@@ -1,4 +1,4 @@
-        <div class="text-white -dark bg-primary footer-clean">
+        <div class="text-white -dark bg-primary footer-clean <?php if($page == 'login' || $exist == 1 || $contactsuccess == true){ echo 'fixed-bottom'; }?>">
             <footer style="background-color:black">
                 <div class="container">
                     <div class="footer-dark row justify-content-center py-3">

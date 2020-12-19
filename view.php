@@ -1,5 +1,5 @@
 <?php 
-    $title = 'View Record';
+    $title = 'VIEW CUSTOMER';
     require_once 'includes/header.php';
     require_once 'includes/auth_check.php';
     require_once 'db/conn.php';

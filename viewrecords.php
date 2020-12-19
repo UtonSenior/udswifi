@@ -1,5 +1,5 @@
 <?php 
-    $title = 'View Records';
+    $title = 'VIEW RECORDS';
     $page = "viewrecords";
     require_once 'includes/header.php';    
     require_once 'includes/auth_check.php';

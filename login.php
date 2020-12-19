@@ -1,5 +1,6 @@
 <?php 
     $title = 'User Login';
+    $page = "login";
     require_once 'includes/header.php';
     require_once 'db/conn.php';
 

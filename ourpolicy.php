@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Home';
+    $title = 'OUR POLICY';
     $page = "ourpolicy";
     require_once 'includes/header.php';
     require_once 'db/conn.php';
