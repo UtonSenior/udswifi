@@ -13,11 +13,13 @@
         $result = $crud->getCustomerDetails($id);
     
 ?>
-        <div class="container" style="margin-bottom: 80px">
+        <div id="contact-banner">
+            <div class="container-fluid" style="margin: 0px;margin-top: 0;padding-top: 30px;padding-bottom: 30px;text-align: center;">
+                <h1 style="color: rgb(255,255,255);">Customer</h1>
+            </div>
+        </div>
+        <div class="container" style="margin-bottom: 18px">
             <div class="login-card shadow p-3 mb-5 bg-white rounded">
-                <div>
-                    <h2 class="text-center">Customer</h2>
-                </div>
                     <div class="row">
                         <div class="col text-center">
                             <img class="img-fluid" src="<?php echo $result['profile_pic']?>" onerror="this.src='images/avatar_2x.png'" style="height:300px; width:350px" >

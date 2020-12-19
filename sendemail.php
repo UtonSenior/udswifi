@@ -20,17 +20,17 @@
                     [
                       'From' => [
                         'Email' => "utonseniormbhs@gmail.com",
-                        'Name' => "IT Conference"
+                        'Name' => "UDS WIFI"
                       ],
                       'To' => [
                         [
-                          'Email' => "utonseniormbhs@gmail.com",
+                          'Email' => $to,
                           //'Name' => "Uton"
                         ]
                       ],
                       'Subject' => $subject,
                       'TextPart' => $content,
-                      'HTMLPart' => $content,
+                      'HTMLPart' => $content,      
                     ]
                   ]
                 ];
@@ -64,7 +64,7 @@
               $mail->Subject = $subject;
               $mail->Body    = $content;
             
-              //$mail->send();
+              $mail->send();
               //echo 'Email has been sent.';
               return 1;
           } catch (Exception $e) {

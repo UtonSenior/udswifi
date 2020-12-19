@@ -35,8 +35,35 @@
                 $genderName = $crud->getGenderById($gender);
 
                 if ($isSuccess) {
-                    //SendEmail::SendMail($email, 'Welcome to IT Conference 2020', 
-                //     'Dear ' . $fname . ',<br><br>You have successfully registered for this year\'s IT Conference. <br><br>Regards. <br><br>');
+                    SendEmail::SendMail($email, 'UDS FREE WIFI SERVICE', 
+                     '
+                        <div style="width: 600px;margin:auto;box-shadow: 0 3px 3px rgba(0,0,0,0.2);">
+                            <div style="text-align:center;background-color:#6C9392;padding-top:7px;padding-bottom:7;color:white">
+                                <h2 style="color:white">UDS WIFI</h2>
+                            </div>
+                            <div style="padding:0px 7px 7px 20px;">
+                                <div>
+                                    <h3>Dear ' .$fname.',</h3>
+                                </div>
+                                <div>
+                                    <p>Thanks for registering for our free wifi service. At UDS WIFI we offer the best speed money can buy at no cost to you with access to our wifi service island-wide.</p>
+                                    <br/>
+                                    <p>Please see our free access information below:</p>
+                                    <br/>
+                                </div>
+                                <div style="padding-bottom: 10px">
+                                    <p>
+                                    WIFI: <strong>UDSWIFI</strong><br>PASSWORD: <strong>12345</strong>
+                                    </p>
+                                    <br/><br/>
+                                </div>
+                                <div>
+                                    <p></p>
+                                    <p>Best Regards. <br> UDS Team</p>
+                                </div>
+                            </div>
+                        </div>
+                     ');
                 include 'includes/successmessage.php';
             }
             else{
@@ -75,6 +102,15 @@
                                 </p>
                             </div>
                         </div>
+                        <div>
+                                <div class="row">
+                                    <div class="col col-btn">
+                                        <div class="btn-group" role="group">
+                                            <a href="index.php" class="btn btn-info"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to Home</a>
+                                        </div
+                                        </div>
+                                </div>    
+                            </div>
                     </div>
                 </div>                
                 </div>

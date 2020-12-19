@@ -23,12 +23,15 @@
 
 ?>
 
-<div class="login-card shadow p-3 mb-5 bg-white rounded">
+<div class="login-card shadow p-3 mb-5 bg-white rounded" style="margin-top: 3%">
     <div>
         <h2 class="text-center"><?php echo $title ?></h2>
     </div>
         
-    <img class="img-fluid profile-img-card" src="images/lock.png">
+    <!-- <img class="img-fluid profile-img-card"> -->
+    <p style="text-align: center;">
+    <i class="fas fa-lock" style="font-size: 70px;"></i>
+    </p>
         
     <p class="profile-name-card"> </p>
     <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">

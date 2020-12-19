@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-12 col-md-4" style="text-align: center;">
                 <div class="row">
-                    <div class="col" style="padding-top: 35px;"><i class="fa fa-mobile-phone" style="font-size: 70px;"></i>
+                    <div class="col" style="padding-top: 35px;"><i class="fas fa-mobile-alt" style="font-size: 70px;"></i>
                         <h1>Contact Us</h1>
                         <p><strong>Headquarters (Toll Free):</strong></p>
                         <p>876-889-0292</p>
@@ -26,7 +26,7 @@
             </div>
             <div class="col-12 col-md-4" style="text-align: center;">
                 <div class="row">
-                    <div class="col" style="padding-top: 35px;"><i class="fa fa-map-marker" style="font-size: 70px;"></i>
+                    <div class="col" style="padding-top: 35px;"><i class="fas fa-map-marker-alt" style="font-size: 70px;"></i>
                         <h1>Come see us</h1>
                         <p><strong>UDS WIFI</strong></p>
                         <p>33 Queen Street, Morant Bay St. Thomas.</p>
@@ -35,7 +35,7 @@
             <div
                 class="col-12 col-md-4" style="text-align: center;">
                 <div class="row">
-                    <div class="col" style="padding-top: 35px;"><i class="fa fa-clock-o" style="font-size: 70px;"></i>
+                    <div class="col" style="padding-top: 35px;"><i class="far fa-clock" style="font-size: 70px;"></i>
                         <h1>24/7 Support</h1>
                         <p><a href="#">Open Live Chat</a></p>
                         <p><img src="assets/img/logo.png" style="color: rgb(0,0,0);background: #6c9392;"></p>

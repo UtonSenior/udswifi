@@ -3,7 +3,7 @@
                 <div class="container">
                     <div class="footer-dark row justify-content-center py-3">
                         <?php                     
-                            echo "Copyright &copy; UDS WIFI 2010 - " . date("Y") . "";                
+                            echo "Copyright &copy; UDS WIFI 2008 - " . date("Y") . "";                
                         ?>
                     </div>
                 </div>

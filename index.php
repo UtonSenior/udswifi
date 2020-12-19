@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-12 col-md-4" style="text-align: center;">
                     <div class="card">
-                        <div class="card-body"><i class="fa fa-shield" style="font-size: 60px;color: #007BFF;"></i>
+                        <div class="card-body"><i class="fa fa-shield-alt" style="font-size: 60px;color: #007BFF;"></i>
                             <h4 class="card-title">RELIABLE</h4>
                             <h6 class="text-muted card-subtitle mb-2"><strong>Stay connected</strong> all the time.</h6>
                         </div>

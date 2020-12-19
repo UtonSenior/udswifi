@@ -15,14 +15,16 @@
         $customer = $crud->getCustomerDetails($id);
 
 ?>
-        <div   div class="container" id="form" style="margin-bottom: 30px"> 
+    <div id="contact-banner">
+        <div class="container-fluid" style="margin: 0px;margin-top: 0;padding-top: 30px;padding-bottom: 30px;text-align: center;">
+            <h1 style="color: rgb(255,255,255);">Edit Customer</h1>
+        </div>
+    </div>
+        <div   div class="container" id="form" style="margin-bottom: 5px"> 
             <div class="row">
                 <div class="col-sm-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3 shadow p-3 mb-5 bg-white rounded" id="col-top" style="background-color: rgb(247,247,247);">
                     
                     <form method="post" action="editpost.php">
-                        <div class="form-group">
-                                    <h1 class="text-center" id="it-heading">Edit Record</h1>
-                        </div>
                         <input required type="hidden" name="id" value="<?php echo $customer['customer_id']; ?>" />
                         <div class="form-group">
                             <label for="firstname">First name</label>

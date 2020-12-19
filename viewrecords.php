@@ -13,7 +13,7 @@
             <h1 style="color: rgb(255,255,255);">Customers</h1>
         </div>
     </div>
-    <div class="container" id="form" style="margin-bottom: 80px; padding-top:15px">
+    <div class="container" id="form" style="margin-bottom: 18px; padding-top:15px">
         <div class="row">
             <div class="col" style="background-color: rgb(247,247,247);">
                 <div class="table-responsive">

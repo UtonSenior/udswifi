@@ -28,7 +28,7 @@
             </div>
             <div class="col-12 col-md-4" style="text-align: center;padding-top: 20px;">
                 <div class="card">
-                    <div class="card-body"><i class="fa fa-stack-exchange" style="font-size: 100px;color: #007BFF;"></i>
+                    <div class="card-body"><i class="fab fa-stack-exchange" style="font-size: 100px;color: #007BFF;"></i>
                         <h4 class="card-title">Technical Support</h4>
                     </div>
                 </div>
