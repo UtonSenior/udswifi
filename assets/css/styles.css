@@ -1,0 +1,80 @@
+.navbar {
+  background-color: #001311 ! important;
+}
+
+#banner {
+  background-image: url("../../assets/img/./header-bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#row-na {
+  padding-top: 12%;
+}
+
+#row-register {
+  padding-bottom: 10%;
+}
+
+#banner #now-avail {
+  font-size: 55px;
+}
+
+@media (max-width: 576px) {
+  #banner #now-avail {
+    font-size: 35px;
+  }
+}
+
+#banner #hd-uds-free-wifi {
+  font-size: 50px;
+}
+
+@media (max-width: 576px) {
+  #banner #hd-uds-free-wifi {
+    font-size: 26px;
+  }
+}
+
+#banner #condition {
+  font-size: 26px;
+}
+
+@media (max-width: 576px) {
+  #banner #condition {
+    font-size: 16px;
+  }
+}
+
+#wifi-img {
+  width: 350px;
+}
+
+#udswifi-sec {
+  background-color: #6C9392;
+}
+
+#offers .card {
+  border-radius: 50px 0px;
+}
+
+#row-h .card {
+  margin-top: 5px;
+}
+
+#contact-banner {
+  background-color: #6C9392;
+}
+
+#contact-form {
+  background-color: #6C9392;
+}
+
+#the-team {
+  background-color: #6C9392;
+}
+
+#courage {
+  background-color: #6C9392;
+}
+
