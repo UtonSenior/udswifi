@@ -31,8 +31,8 @@
                 <p style="color: rgb(255,255,255);">The personal information collected is only used by UDS WIFI staff for the purposes of you being able to accessing UDS WIFI Service.&nbsp;We do not share your information with any third parties.<br></p>
                 <p style="color: rgb(255,255,255);">If you have granted us the permission to, we can use your personal information in order to send you newsletters, with the intent of offering you the best service possible.<br></p>
                 <h5 style="color: rgb(214,121,121);">SHARING OF YOUR PERSONAL INFORMATION<br></h5>
-                <p style="color: rgb(255,255,255);">We will not, in any circumstances, share your personal information with <br>other individuals or organizations without your permission, including <br>public organizations, corporations or individuals, except when <br>applicable by law.
-                    We will not sell, communicate or divulge your <br>information to any mailing lists.<br></p>
+                <p style="color: rgb(255,255,255);">We will not, in any circumstances, share your personal information with other individuals or organizations without your permission, including public organizations, corporations or individuals, except when applicable by law.
+                    We will not sell, communicate or divulge your information to any mailing lists.<br></p>
             </div>
             <div class="col" style="border-top: 2px none rgb(108,147,146) ;border-right: 2px solid rgb(108,147,146) ;border-bottom: 2px none rgb(108,147,146) ;">
                 <form id="regForm" name="regForm" method="post" action="success.php" enctype="multipart/form-data">
